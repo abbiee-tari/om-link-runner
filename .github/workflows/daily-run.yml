@@ -2,7 +2,7 @@ name: Daily Link Runner
 
 on:
   schedule:
-    - cron: "0 9 * * *"  # Runs at 10AM Nigerian time (UTC+1)
+    - cron: "30 6 * * *"  
   workflow_dispatch:      # Allows manual runs if needed
 
 jobs:
